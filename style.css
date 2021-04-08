@@ -140,9 +140,10 @@
 }
 /*  \\\\\\\\\\\\\\\\\\\     /esercizio 10 \\\\\\\\\\\\\ */
 
+/*  \\\\\\\\\\\\\\\\\\\   esercizio 11 \\\\\\\\\\\\\ */
+
 .ex-11-icon {
     font-size: 60px;
-    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1); 
 }
 .ex-11-icon:hover{
     animation:spin2 2s linear;
@@ -161,6 +162,7 @@
         transform:rotate(0);
     }
 }
+/*  \\\\\\\\\\\\\\\\\\\      /esercizio 11 \\\\\\\\\\\\\ */
 
 
 .ex-12-button, .ex-13-button {
@@ -192,3 +194,4 @@
     width: 60px;
     height: 20px;
 }
+
