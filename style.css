@@ -92,6 +92,14 @@
 }
 /*  \\\\\\\\\\\\\\\\\\\     /esercizio 6 \\\\\\\\\\\\\ */
 
+/*  \\\\\\\\\\\\\\\\\\\  esercizio 7 \\\\\\\\\\\\\ */
+
+.ex-7-img:hover{
+    transition-duration: 3s;
+    filter:invert(1) grayscale(1);
+}
+/*  \\\\\\\\\\\\\\\\\\\     /esercizio 7 \\\\\\\\\\\\\ */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
