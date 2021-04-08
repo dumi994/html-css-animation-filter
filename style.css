@@ -79,7 +79,7 @@
     background: red;
 }
 
-/*  \\\\\\\\\\\\\\\\\\\     / esercizio 4\\\\\\\\\\\\\ */
+/*  \\\\\\\\\\\\\\\\\\\     / esercizio 5\\\\\\\\\\\\\ */
 
 /*  \\\\\\\\\\\\\\\\\\\  esercizio 6 \\\\\\\\\\\\\ */
 
@@ -108,10 +108,22 @@
 }
 /*  \\\\\\\\\\\\\\\\\\\     /esercizio 8 \\\\\\\\\\\\\ */
 
+/*  \\\\\\\\\\\\\\\\\\\   esercizio 9 \\\\\\\\\\\\\ */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover {
+    transition-duration: 3s;
+    border-radius: 15px;
+    margin: 50px 50px;
+    width: 600px;
+    filter: hue-rotate(80deg) sepia(60%);
+    
+}
+/*  \\\\\\\\\\\\\\\\\\\     /esercizio 9 \\\\\\\\\\\\\ */
+
 .ex-10-icon {
     font-size: 60px;
 }
