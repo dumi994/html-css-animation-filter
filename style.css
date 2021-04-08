@@ -41,10 +41,18 @@
     background: red;
     transition-duration: 4s;
 }
-
 /*  \\\\\\\\\\\\\\\\\\\     / esercizio 3\\\\\\\\\\\\\ */
 
+/*  \\\\\\\\\\\\\\\\\\\     / esercizio 3\\\\\\\\\\\\\ */
 .ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-4-square:hover {
+    opacity:0;
+    transition-duration: 2s;
     width: 100px;
     height: 100px;
     background: red;
