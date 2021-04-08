@@ -43,7 +43,7 @@
 }
 /*  \\\\\\\\\\\\\\\\\\\     / esercizio 3\\\\\\\\\\\\\ */
 
-/*  \\\\\\\\\\\\\\\\\\\     / esercizio 3\\\\\\\\\\\\\ */
+/*  \\\\\\\\\\\\\\\\\\\  esercizio 4\\\\\\\\\\\\\ */
 .ex-4-square {
     width: 100px;
     height: 100px;
@@ -53,16 +53,34 @@
 .ex-4-square:hover {
     opacity:0;
     transition-duration: 2s;
-    width: 100px;
-    height: 100px;
-    background: red;
 }
+/*  \\\\\\\\\\\\\\\\\\\     \esercizio 4   \\\\\\\\\\\\\\\\ */
+
+/*  \\\\\\\\\\\\\\\\\\\  esercizio 5 \\\\\\\\\\\\\ */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+.ex-5-square:hover {
+    transition-duration: 2s;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.ex-5-square:active {
+    transition-duration: 2s;
+    margin: 20px;
+    width: 25px;
+    height: 25px;
+    background: red;
+}
+
+/*  \\\\\\\\\\\\\\\\\\\     / esercizio 4\\\\\\\\\\\\\ */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
