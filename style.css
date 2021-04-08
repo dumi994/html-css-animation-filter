@@ -138,14 +138,31 @@
         transform: rotate(-360deg);
     }
 }
-
-
-
 /*  \\\\\\\\\\\\\\\\\\\     /esercizio 10 \\\\\\\\\\\\\ */
 
 .ex-11-icon {
     font-size: 60px;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1); 
 }
+.ex-11-icon:hover{
+    animation:spin2 2s linear;
+}
+@keyframes spin2 {
+    0%{
+        transform:rotate(0)
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    70%{
+        transform:rotate(270deg);
+    }
+    75%{
+        transform:rotate(0);
+    }
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
