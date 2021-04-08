@@ -109,7 +109,6 @@
 /*  \\\\\\\\\\\\\\\\\\\     /esercizio 8 \\\\\\\\\\\\\ */
 
 /*  \\\\\\\\\\\\\\\\\\\   esercizio 9 \\\\\\\\\\\\\ */
-
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
@@ -119,14 +118,31 @@
     border-radius: 15px;
     margin: 50px 50px;
     width: 600px;
-    filter: hue-rotate(80deg) sepia(60%);
-    
+    filter: hue-rotate(80deg) sepia(60%);    
 }
 /*  \\\\\\\\\\\\\\\\\\\     /esercizio 9 \\\\\\\\\\\\\ */
 
+/*  \\\\\\\\\\\\\\\\\\\   esercizio 10 \\\\\\\\\\\\\ */
 .ex-10-icon {
     font-size: 60px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
 }
+@keyframes spin {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+/*  \\\\\\\\\\\\\\\\\\\     /esercizio 10 \\\\\\\\\\\\\ */
+
 .ex-11-icon {
     font-size: 60px;
 }
