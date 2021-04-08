@@ -18,23 +18,32 @@
     height: 100px;
     background: red;
 }
-
 .ex-2-square:active {
     transition-duration: 4s;
     width: 1100px;
     height: 100px;
     background: red;
 }
-
-
 /*  \\\\\\\\\\\\\\\\\\\     / esercizio 2\\\\\\\\\\\\\ */
 
+/*  \\\\\\\\\\\\\\\\\\\   esercizio 3\\\\\\\\\\\\\ */
 
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+.ex-3-square:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    transition-duration: 4s;
+}
+
+/*  \\\\\\\\\\\\\\\\\\\     / esercizio 3\\\\\\\\\\\\\ */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
